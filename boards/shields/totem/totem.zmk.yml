@@ -1,0 +1,11 @@
+file_format: "1"
+id: totem
+name: TOTEM
+type: shield
+url: https://github.com/hector3211/zmk-config-totem-v0
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - totem_left
+  - totem_right
