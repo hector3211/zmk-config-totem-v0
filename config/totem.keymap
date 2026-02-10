@@ -115,10 +115,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp GRAVE  &bt BT_CLR  &kp UP    &kp EQUAL     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT     &kp LBKT                &kp RBKT               &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&kp TILDE  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN     &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp KP_NUMBER_0
-                                  &to 0     &kp LEFT_ALT  &kp DELETE              &mo 2                  &to 3      &kp RCTRL
+           &kp GRAVE  &bt BT_CLR  &kp UP    &kp EQUAL     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp PLUS
+           &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT     &kp LBKT                &kp RBKT               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
+&kp TILDE  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN     &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp N0
+                                  &to 0     &kp LEFT_ALT  &kp DELETE              &mo 2                  &to 3         &kp RCTRL
             >;
         };
 
@@ -141,10 +141,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PERCENT     &kp CARET     &kp AMPS        &kp ASTERISK  &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &kp QUESTION    &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)    &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans          &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT  &kp BSLH   &kp UNDERSCORE
-                                  &to 0      &to 1     &mo ADJ         &trans        &kp C_PP        &trans
+        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PERCENT        &kp CARET     &kp AMPS        &kp ASTERISK  &kp SQT     &kp DQT
+        &kp RA(A)    &trans       &kp RA(S)  &trans    &kp QUESTION       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)    &kp RA(N4)  &kp RA(O)
+&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &kp PRINTSCREEN    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT  &kp BSLH   &kp UNDERSCORE
+                                  &to 0      &to 1     &mo ADJ            &trans        &kp C_PP        &trans
             >;
         };
 
