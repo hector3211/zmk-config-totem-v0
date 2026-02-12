@@ -141,10 +141,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PERCENT        &kp CARET     &kp AMPS        &kp ASTERISK  &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &kp QUESTION       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)    &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &kp PRINTSCREEN    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT  &kp BSLH   &kp UNDERSCORE
-                                  &to 0      &to 1     &mo ADJ            &trans        &kp C_PP        &trans
+          &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PERCENT        &kp CARET     &kp AMPS        &kp ASTERISK  &kp SQT     &kp DQT
+          &kp RA(A)    &trans       &kp RA(S)  &trans    &kp QUESTION       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)    &kp RA(N4)  &kp RA(O)
+&kp PIPE  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &kp PRINTSCREEN    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV    &kp C_NEXT  &kp BSLH   &kp UNDERSCORE
+                                    &to 0      &to 1     &mo ADJ            &trans        &kp C_PP        &trans
             >;
         };
 
